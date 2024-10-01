@@ -10,10 +10,10 @@ const  TopsCollection = () => {
 <figure>
 
       <Image
-        src="/assets/top1.jpg" alt="pic" width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/top_1.jpg" alt="pic" width={200} height={50}
+        className=' w-[100] h-[100] mt-5'/>
     </figure>
-    <div className="card-body">
+    <div className="card-body mt-10">
       <h2 className="card-title">Offer!</h2>
       <p>Here is Western Top Collection in only $150 </p>
       <div className="card-actions justify-end">
