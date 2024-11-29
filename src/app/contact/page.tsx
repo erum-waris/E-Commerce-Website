@@ -1,9 +1,10 @@
+"use client"
 import ContactForm from '@/components/Contact'
 import React from 'react'
 
 function Contact() {
   return (
-    <div>
+    <div className="">
         <ContactForm/>
         </div>
   )

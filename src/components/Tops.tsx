@@ -3,19 +3,21 @@ import Image from "next/image"
 import Link from 'next/link'
 const  TopsCollection = () => {
   return (
+    <>
+    <h1 className=' h-40 lg:h-10 bg-pink-200 text-blue-800 font-bold text-2xl mt-5 text-center' >Ladies Western Tops Collection</h1>
     <div>
-      <h1 className='block-inline h-20 lg:h-10 bg-pink-200 text-blue-800 font-bold text-2xl mt-5 text-center' >Ladies Western Tops Collection</h1>
-    <div className='md:flex md:justify-around m-10 flex flex-wrap '>
+      
+    <div className='md:flex md:justify-around m-10 flex flex-wrap sm:gap-9 '>
       <div className=" card card-compact bg-base-100 w-60 shadow-xl mt-10">
 <figure>
 
       <Image
-        src="/images/top_1.jpg" alt="pic" width={200} height={50}
-        className=' w-[100] h-[100] mt-5'/>
+        src="/images/top_1.jpg" alt="pic" width={200} height={200}
+        className=' w-[200px] h-[300px] mt-5'/>
     </figure>
     <div className="card-body mt-10">
       <h2 className="card-title">Offer!</h2>
-      <p>Here is Western Top Collection in only $150 </p>
+      <p>Here is Western Top Collection in only $200 </p>
       <div className="card-actions justify-end">
       <button className="btn btn-primary"><Link href="/shopnow">Order Now</Link></button>
       </div>
@@ -26,7 +28,7 @@ const  TopsCollection = () => {
 <figure>
       <Image
         src="/images/top2.jpg" alt="suit" width={200} height={50} 
-        className=' w-[100] h-[50] mt-5'/>
+        className=' w-[250px] h-[300px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
@@ -44,7 +46,7 @@ const  TopsCollection = () => {
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
-      <p>Here is Western Top Collection in only $150</p>
+      <p>Here is Western Top Collection in only $160</p>
       <div className="card-actions justify-end">
         <button className="btn btn-primary"><Link href="/shopnow">Order Now</Link></button>
       </div>
@@ -63,7 +65,7 @@ const  TopsCollection = () => {
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
-      <p>Here is Western Top Collection in only $150</p>
+      <p>Here is Western Top Collection in only $130</p>
       <div className="card-actions justify-end">
         <button className="btn btn-primary"><Link href="/shopnow">Order Now</Link></button>
       </div>
@@ -74,11 +76,11 @@ const  TopsCollection = () => {
 <figure>
       <Image
         src="/images/top5.jpg" alt="kurti"width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        className=' w-[200px] h-[250px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
-      <p>Here is Western Top Collection in only $150</p>
+      <p>Here is Western Top Collection in only $250</p>
       <div className="card-actions justify-end">
         <button className="btn btn-primary"><Link href="/shopnow">Order Now</Link></button>
       </div>
@@ -88,12 +90,12 @@ const  TopsCollection = () => {
   <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10">
 <figure>
       <Image
-        src="/images/top6.jpg" alt="kurti"width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/top6.jpg" alt="kurti" width={200} height={150}
+        className=' w-[200px] h-[250px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
-      <p>Here is Western Top Collection in only $150</p>
+      <p>Here is Western Top Collection in only $180</p>
       <div className="card-actions justify-end">
         <button className="btn btn-primary"><Link href="/shopnow">Order Now</Link></button>
       </div>
@@ -105,7 +107,7 @@ const  TopsCollection = () => {
   
 
   </div>
- 
+  </>
   )
 }
 

@@ -15,8 +15,9 @@ const PantsCollection = () => {
     <figure>
     
           <Image
-            src="/images/lady-trouser1.jpg" alt="pic" width={200} height={100}
-            className=' w-[100] h-[100] mt-5'/>
+            src="/images/lady-trouser1.jpg" alt="pic" width={200} height={400}
+            object-fit='cover'
+            className="w-[100%] h-[300px] mt-5"/>
         </figure>
         <div className="card-body ">
           <h2 className="card-title">Offer!</h2>
@@ -30,7 +31,7 @@ const PantsCollection = () => {
       <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10 ">
     <figure>
           <Image
-            src="/images/pant.jpg" alt="suit" width={200} height={50} 
+            src="/images/pant.jpg" alt="suit" width={200} height={200} 
             className=' w-[100] h-[50] mt-5'/>
       </figure>
         <div className="card-body">
@@ -44,8 +45,8 @@ const PantsCollection = () => {
       <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10">
     <figure>
           <Image
-            src="/images/lady-pant.png" alt="kurti"width={200} height={100}
-            className=' w-[150] h-[150] bg-blue-200 mt-5'/>
+            src="/images/lady-pant.png" alt="kurti"width={200} height={400}
+            className=' w-[200px] h-[300px] bg-blue-200 mt-5'/>
       </figure>
         <div className="card-body">
           <h2 className="card-title mt-10">Offer!</h2>

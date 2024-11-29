@@ -1,3 +1,5 @@
+"use client"
+
 import ShopNowForm from '@/components/ShopNow'
 import React from 'react'
 

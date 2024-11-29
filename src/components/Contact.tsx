@@ -33,14 +33,14 @@ const ContactForm: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-screen relative">
       {showPopup && (
-        <div className="absolute top-1 md:top-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 rounded-md shadow-md">
+        <div className="absolute top-1 md:top-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-4 rounded-md shadow-md">
          Thanks for your Attention!
         </div>
       )}
 
       <form
         onSubmit={handleSubmit}
-        className="bg-blue-200 shadow-lg rounded-lg p-8 max-w-md w-full"
+        className="relative top-[-115px] bg-blue-200 shadow-lg rounded-lg p-8 max-w-md w-full"
       >
         <h2 className="text-4xl font-bold mb-6 text-center">Contact Us</h2>
         

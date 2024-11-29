@@ -10,8 +10,8 @@ const CatalogSection = () => {
 <figure>
 
       <Image
-        src="/images/suit1.jpeg" alt="pic" width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/suit1.jpeg" alt="pic" width={200} height={200}
+        className=' w-[200px] h-[300px] mt-5'/>
     </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
@@ -25,8 +25,8 @@ const CatalogSection = () => {
   <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10 ">
 <figure>
       <Image
-        src="/images/suit2.jpeg" alt="suit" width={200} height={50} 
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/suit2.jpeg" alt="suit" width={200} height={200} 
+        className=' w-[200px] h-[300px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
@@ -39,8 +39,8 @@ const CatalogSection = () => {
   <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10">
 <figure>
       <Image
-        src="/images/suit3.jpeg" alt="kurti"width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/suit3.jpeg" alt="kurti" width={200} height={200}
+        className=' w-[200px] h-[300px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
@@ -107,8 +107,8 @@ const CatalogSection = () => {
   <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10">
 <figure>
       <Image
-        src="/images/suit7.jpeg" alt="kurti"width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/suit7.jpeg" alt="kurti"width={200} height={200}
+        className=' w-[200px] h-[300px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
@@ -122,8 +122,8 @@ const CatalogSection = () => {
   <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10">
 <figure>
       <Image
-        src="/images/suit8.jpeg" alt="kurti"width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/suit8.jpeg" alt="kurti"width={200} height={200}
+        className='w-[200px] h-[300px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
@@ -137,8 +137,8 @@ const CatalogSection = () => {
   <div className="card card-compact bg-base-100 w-60 shadow-xl mt-10">
 <figure>
       <Image
-        src="/images/suit9.jpeg" alt="kurti"width={200} height={50}
-        className=' w-[100] h-[50] mt-5'/>
+        src="/images/suit9.jpeg" alt="kurti"width={200} height={200}
+        className='w-[200px] h-[300px] mt-5'/>
   </figure>
     <div className="card-body">
       <h2 className="card-title">Offer!</h2>
